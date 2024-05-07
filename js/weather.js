@@ -6,7 +6,7 @@ class WeatherComponent extends HTMLElement {
     }
 
     connectedCallback() {
-        const weatherKey = "293b21ad6b230c2632cdb0ea257993cd";
+        const weatherKey = "";
         const zip = 64105;
         const countrycode = "us"; // US country code
         const weatherURL = `http://api.openweathermap.org/geo/1.0/zip?zip=${zip},${countrycode}&appid=${weatherKey}`;
