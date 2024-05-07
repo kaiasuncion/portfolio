@@ -57,7 +57,7 @@ gsap.from(
 gsap.from(
   ".hero-content h1", { 
     duration: 1, 
-    x: -200, 
+    y: -200, 
     opacity: 0, 
     ease: "power2.slow" 
 });
@@ -65,7 +65,7 @@ gsap.from(
 gsap.from(
   ".hero-content p", { 
     duration: 1, 
-    x: 200, 
+    y: 200, 
     opacity: 0, 
     ease: "power2.slow" 
 });
