@@ -33,20 +33,7 @@ gsap.from(
     ease: "power2.out" 
 });
 
-gsap.utils.toArray(".wrapper").forEach(service => {
-  gsap.from(service, {
-    scrollTrigger: {
-      trigger: service,
-      start: "top 85%",
-      toggleActions: "play none none none"
-    },
-    y: 50,
-    opacity: 0,
-    duration: 0.5
-  });
-});
-
-gsap.utils.toArray(".service").forEach(service => {
+gsap.utils.toArray(".wrapper, input, textarea, label, .wrapper ul li, .service").forEach(service => {
   gsap.from(service, {
     scrollTrigger: {
       trigger: service,
@@ -68,11 +55,19 @@ gsap.from(
 });
 
 gsap.from(
-  ".hero-content", { 
+  ".hero-content h1", { 
     duration: 1, 
-    y: -30, 
+    x: -200, 
     opacity: 0, 
-    ease: "power1.out" 
+    ease: "power2.slow" 
+});
+
+gsap.from(
+  ".hero-content p", { 
+    duration: 1, 
+    x: 200, 
+    opacity: 0, 
+    ease: "power2.slow" 
 });
 
 
