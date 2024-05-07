@@ -1,0 +1,37 @@
+@media screen and (min-width: 768px) {
+
+    p, li {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+    .hero-content p {
+        font-size: 2rem;
+    }
+
+    .emphasis {
+        font-size: 18rem;
+    }
+
+    .content-content {
+        max-width: 800px;
+    }
+
+    .site-heading {
+        font-size: 4rem;
+        width: 100%;
+    }
+
+    .about-wrapper {
+        justify-content: center;
+    }
+
+    .service-container {
+        flex-flow: wrap;
+    }
+
+}

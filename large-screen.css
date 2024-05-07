@@ -1,0 +1,34 @@
+@media screen and (min-width: 1300px) {
+    .nav-header {
+        justify-content: space-between;
+    }
+
+    .nav-ul {
+        position: relative;
+        right: 0;
+        flex-direction: row;
+        height: 100%;
+        background-color: none;
+        z-index: 2;
+    }
+
+    .hamburger-menu {
+        display: none;
+        z-index: 0;
+    }
+
+    .nav-ul a {
+        font-size: 1.2rem;
+        text-decoration: none;
+        
+    }
+    .emphasis {
+        font-size: 20rem;
+    }
+
+    .about-wrapper {
+        flex-direction: row;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+}
