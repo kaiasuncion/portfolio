@@ -64,7 +64,7 @@ li {
   top: 0;
   /* height: 4rem; */
   width: 100%;
-  /* background-color: #111; */
+  background-color: #111;
   z-index: 3;
   display: flex;
   align-items: center;
@@ -493,6 +493,6 @@ input,textarea {
   gap: 2rem;
 }
 
-ul > li {
-  margin-bottom: 2rem;
+.skills > li {
+  margin-bottom: 1rem;
 }
