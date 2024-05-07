@@ -138,7 +138,7 @@ nav a {
 .site-heading {
   font-size: 2rem;
   width: 100%;
-  text-shadow: 0 0 4px #111;
+  /* text-shadow: 0 0 4px #111; */
 }
 
 .nav-ul {
