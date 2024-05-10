@@ -462,6 +462,7 @@ a {
 input,textarea {
   margin-bottom: 1rem;
   padding: .5rem;
+  width: 100%;
 }
 
 .form-button {
