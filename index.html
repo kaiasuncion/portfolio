@@ -166,7 +166,14 @@
         <div class="inverse wrapper">
           <h2 id="contact">Contact</h2>
           <div class="form-container">
-            <form action="" method="post" class="form-container">
+            <form
+              action="/success/"
+              method="POST"
+              netlify-honeypot="bot-field"
+              data-netlify-recaptcha="true"
+              data-netlify="true"
+              class="form-container"
+            >
               <label for="first_name">First Name</label>
               <input
                 type="text"
@@ -201,6 +208,15 @@
                 cols="50"
                 required
               ></textarea>
+
+              <p class="hidden">
+                <label>
+                  Don’t fill this out if you’re human:
+                  <input name="bot-field" />
+                </label>
+              </p>
+
+              <input type="hidden" name="form-name" value="name_of_my_form" />
 
               <input
                 type="submit"
