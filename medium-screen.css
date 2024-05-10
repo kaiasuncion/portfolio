@@ -6,15 +6,16 @@
     }
 
     .hero-content h1 {
-        font-size: 6rem;
-        line-height: 5rem;
+        /* font-size: 9vw; */
+        /* line-height: 5rem; */
+        height: 100%;
     }
     .hero-content p {
         font-size: 2rem;
     }
 
     .emphasis {
-        font-size: 18rem;
+        font-size: 40vw;
     }
 
     .content-content {
