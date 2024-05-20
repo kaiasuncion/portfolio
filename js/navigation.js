@@ -21,10 +21,10 @@ class NavigationComponent extends HTMLElement {
             </div>
         </nav>
         <ul class="nav-ul">
-            <li><a href="index.html" class="nav-item">Home</a></li>
-            <li><a href="portfolio.html" class="nav-item">Portfolio</a></li>
-            <li><a href="about.html" class="nav-item">About</a></li>
-            <li><a href="index.html#contact" class="link-button contact-button">Contact</a></li>
+            <li><a href="/" class="nav-item">Home</a></li>
+            <li><a href="/portfolio" class="nav-item">Portfolio</a></li>
+            <li><a href="/about" class="nav-item">About</a></li>
+            <li><a href="/#contact" class="link-button contact-button">Contact</a></li>
         </ul>
         </div>
         `;
