@@ -9,7 +9,7 @@ class NavigationComponent extends HTMLElement {
         <nav>
             <div class="heading-container nav-heading">
             <h1 class="site-heading">
-              <a href="index.html">
+              <a href="/">
                   KAI ASUNCION
               </a>
             </h1>
