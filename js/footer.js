@@ -14,9 +14,9 @@ class FooterComponent extends HTMLElement {
                     <p><a href="mailto:kaiasunciondev@gmail.com">kaiasunciondev@gmail.com</a></p>
                 </div>
                 <ul class="footer-ul">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li>
                         <a href="https://www.linkedin.com/in/kaiasuncion/" class="social-link"
                         ><i class="fa-brands fa-linkedin"></i> Linked In</a
